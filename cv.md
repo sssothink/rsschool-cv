@@ -32,6 +32,40 @@ My eyes are burning when I get new experience and new knowledge. I want to devel
 ## Code example:
 
 
+    const fs = require("fs");
+    const path = require("path");
+
+    fs.writeFile(path.join(__dirname, "text.txt"), "", (err) => {
+    if (err) throw err;
+    });
+
+    const readline = require("readline").createInterface({
+    input: process.stdin,
+    output: process.stdout,
+    });
+
+    console.log("Hello write some text please?");
+    const x = () => {
+    readline.question("", (text) => {
+        if (text != "exit") {
+        fs.appendFile(path.join(__dirname, "text.txt"), `${text}\n`, (err) => {
+            if (err) throw err;
+            x();
+        });
+        } else if (`${text}` == "exit") {
+        console.log("Have a great day!");
+        process.exit(0);
+        }
+    });
+    };
+
+    x();
+
+    readline.on("close", () => {
+    console.log("Have a great day!");
+    process.exit(0);
+    });
+
 
 ---
 ## Experience
