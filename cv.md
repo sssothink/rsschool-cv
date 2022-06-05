@@ -19,3 +19,34 @@ Previously worked as a breaking coach. I performed with the dance team at variou
 My eyes are burning when I get new experience and new knowledge. I want to develop in the development of design using code.
 
 ---
+## Skills
+
+* HTML
+* CSS
+* Git, GitHub
+* VS Code
+* Ableton Live, FL Studio
+* Abode Photoshop, Krita
+
+---
+## Code example:
+
+
+
+---
+## Experience
+It will appear in the near future...
+
+---
+
+## Education
+Incomplete Higher Education: Belarusian State Technological University, Production of products based on three-dimensional technologies major.
+
+---
+
+## Languages:
+* English: basic (in active study)
+* French: basic
+* Russian: proficiency
+
+---
