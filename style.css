@@ -1,3 +1,8 @@
-body{
-    background-color: black;
+html{
+    background-image: url(../rsschool-cv/img/photo/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
