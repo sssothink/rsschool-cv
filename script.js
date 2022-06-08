@@ -18,14 +18,6 @@ window.addEventListener('scroll', () => {
 })
 
 
-for (let i = 0; i < navLi.length; i++) {
-    navLi[i].addEventListener('mouseover', () => {
-        alert('jrijgirjg');
-        if(header.classList.contains('activ__header')) {
-            navLi.classList.add('nav__li__down');
-        }
-    })
-}
 header.addEventListener('mouseover', () => {
     if(header.classList.contains('activ__header')) {
         header.classList.remove('activ__header');
