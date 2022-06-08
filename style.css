@@ -1,0 +1,303 @@
+html{
+    background-image: url(../rsschool-cv/img/photo/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5vh 30px 0 30px;
+}
+
+.h{
+    margin-left: -2vh;
+}
+
+
+@font-face {
+    font-family: 'Mog';
+    src: url(../rsschool-cv/fonts/MolgakClassyRegular-lgX7d.ttf);
+}
+@font-face {
+    font-family: 'Cano';
+    src: url(../rsschool-cv/fonts/Cano.otf);
+}
+
+
+
+/* -------------- HEADER -------------------------------------------------------------- */
+
+.header{
+    margin: 0 0 40px 0;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    transition: all 0.3s linear;
+}
+
+.header.activ__header{
+    transform: translateY(-3.1vh);
+}
+
+.header__nav{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.nav__li{
+    width: max-content;
+    background-color: rgba(191, 191, 191, 0.6);
+    border-radius: 0 0 2vh 2vh;
+    padding: 5px;
+    list-style-type: none;
+    transition: all 0.3s;
+}
+
+.nav__li__down{
+    bottom: 3.1vh;
+}
+
+.nav__link{
+    font-family: 'Cano';
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing:1px;
+
+}
+
+.nav__li:hover{
+    background-color: rgba(232, 232, 232, 0.8);
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+
+
+
+
+/* ----------------- MAIN -------------------------------- */
+
+
+section{
+    padding: 1.5vh 0 0 0;
+}
+
+/* -------------contacts--------------- */
+
+
+
+.sections__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts{
+    display: flex;
+}
+
+.inner__contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 0;
+}
+
+
+.li{
+    list-style-type: none;
+    color: black;
+    background-color: rgba(179, 179, 179, 0.9);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Cano';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    box-shadow: inset 0 0 0 0 #000;
+    cursor: pointer;
+}
+
+.li.skills:hover{
+    transform: scale(1.0);
+    background-color: rgba(179, 179, 179, 0.9);
+    color: rgb(255, 255, 255);
+    transition: all 0.8s;
+}
+
+#skill1:hover{
+    box-shadow: inset 630px 0 0 0 rgb(81, 81, 81);
+}
+#skill2:hover{
+    box-shadow: inset 540px 0 0 0 rgb(81, 81, 81);
+}
+#skill3:hover{
+    box-shadow: inset 360px 0 0 0 rgb(81, 81, 81);
+}
+#skill4:hover{
+    box-shadow: inset 270px 0 0 0 rgb(81, 81, 81);
+}
+#skill5:hover{
+    box-shadow: inset 720px 0 0 0 rgb(81, 81, 81);
+}
+#skill6:hover{
+    box-shadow: inset 810px 0 0 0 rgb(81, 81, 81);
+}
+#skill7:hover{
+    box-shadow: inset 450px 0 0 0 rgb(81, 81, 81);
+}
+
+
+.li:hover{
+    transform: scale(1.1);
+    background-color: rgba(221, 219, 219, 0.9);
+    transition: all 0.3s;
+}
+
+.a__contacts{
+    color: rgb(0, 101, 67);
+}
+
+
+
+/* -------------about------------------ */
+
+
+.h{
+    font-family: 'Mog', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(0, 157, 87);
+    background-color: rgba(179, 179, 179, 0.9);
+    height: fit-content;
+    padding: 10px 20px 5px 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.h2{
+    font-family: 'Mog', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(0, 157, 87);
+    background-color: rgba(179, 179, 179, 0.9);
+    height: fit-content;
+    padding: 10px 20px 5px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: -2vh;
+    font-size:larger;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pText{
+    text-indent: 2vh;
+    font-size: 1.1em;
+}
+.avatar{
+    border-radius: 50%;
+    width: 40%;
+    height:fit-content;
+    box-shadow: 0 0 30px 2px;
+    margin: 10px 0 0 0;
+}
+
+
+
+.text{
+    background-color: rgba(184, 184, 184, 0.9);
+    font-family: 'Cano';
+    font-size: 18px;
+    color: rgb(0, 101, 67);
+    font-weight: 500;
+    border-radius: 5px;
+    text-align:justify;
+}
+
+
+
+/* ------------------------code exemple---------------------- */
+
+.code{
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+
+#lg1:hover{
+    background-color: rgb(180, 197, 85);
+    color: rgb(49, 49, 49);
+    transition: all 0.4s ;
+}
+#lg2:hover{
+    background-color: rgb(180, 197, 85);
+    color: rgb(49, 49, 49);
+    transition: all 0.4s ;
+}
+#lg3:hover{
+    background-color: rgb(62, 177, 75);
+    color: rgb(49, 49, 49);
+    transition: all 0.4s ;
+}
+
+
+
+
+/* ------------------------- FOOTER --------------------------- */
+
+
+
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 0;
+    padding: 0 0 3vh 0;
+}
+
+.icone__footer{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(181, 181, 181, 0.5);
+    border-radius: 5vh ;
+    padding: 1vh 2vh;
+    transition: all 0.4s;
+}
+
+.icone__footer:hover{
+    background-color: rgba(232, 232, 232, 0.5);
+    padding: -1vh 0 0 0;
+    width: 60px;
+    height: 60px;
+    transition: all 0.4s;
+}
+
+#rs__icone{
+    width: 70px;
+    height: 50px;
+}
+
+#rs__icone:hover{
+    background-color: rgba(232, 232, 232, 0.5);
+    width: 80px;
+    height: 60px;
+    transition: all 0.4s;
+}
