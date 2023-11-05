@@ -51,3 +51,12 @@ console.log(getIntervalArray(-2, 5))
 ```
 
 ---
+
+## Experience
+
+The extreme experience was related to the development of a social network. The development took place within the framework of a single task on stage 2 in early 2023:
+
+https://github.com/stealthybunny/RSClone/blob/develop/social-network/README.md
+
+---
+
