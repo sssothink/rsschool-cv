@@ -1,12 +1,13 @@
 # Artem Rebenkov
+
 ## Contact information:
 
-* Location: [Minsk, Belarus](https://yandex.by/maps/geo/53177019/?ll=27.623225%2C53.903592&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=11.5)
-* Phone: +375 44 739-58-54
-* Email: rebenkov2002@mail.ru
-* Telegram: @sssothink
-* GitHub: [sssothink](https://github.com/sssothink)
-* Discord: Sothink (@sssothink)
+- Location: [Minsk, Belarus](https://yandex.by/maps/geo/53177019/?ll=27.623225%2C53.903592&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=11.5)
+- Phone: +375 44 739-58-54
+- Email: rebenkov2002@mail.ru
+- Telegram: @sssothink
+- GitHub: [sssothink](https://github.com/sssothink)
+- Discord: Sothink (@sssothink)
 
 ---
 
@@ -24,13 +25,29 @@ My eyes are burning when I get new experience and new knowledge. I want to devel
 
 ## Skills
 
-* HTML
-* CSS
-* Git, GitHub
-* VS Code
-* Ableton Live, FL Studio
-* Abode Photoshop, Krita
-* Excel, PowerPoint
+- HTML
+- CSS
+- Git, GitHub
+- VS Code
+- Ableton Live, FL Studio
+- Abode Photoshop, Krita
+- Excel, PowerPoint
 
 ---
 
+## Code example:
+
+```
+function getIntervalArray(start, end) {
+let st = start - 1;
+const arr = Array(end - st).fill().map(() => {
+st += 1;
+return st;
+});
+return arr;
+}
+
+console.log(getIntervalArray(-2, 5))
+```
+
+---
