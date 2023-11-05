@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://sssothink.github.io/rsschool-cv/cv
