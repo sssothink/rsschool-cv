@@ -22,3 +22,15 @@ My eyes are burning when I get new experience and new knowledge. I want to devel
 
 ---
 
+## Skills
+
+* HTML
+* CSS
+* Git, GitHub
+* VS Code
+* Ableton Live, FL Studio
+* Abode Photoshop, Krita
+* Excel, PowerPoint
+
+---
+
