@@ -60,3 +60,14 @@ https://github.com/stealthybunny/RSClone/blob/develop/social-network/README.md
 
 ---
 
+## Education
+Incomplete Higher Education: Belarusian State Technological University, Production of products based on three-dimensional technologies major.
+
+---
+
+## Languages:
+* English: basic (in active study)
+* French: basic
+* Russian: proficiency
+
+---
