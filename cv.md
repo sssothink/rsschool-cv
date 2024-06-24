@@ -34,3 +34,16 @@ plan to look for a job soon.
 My eyes are burning when I apply the new experience and new knowledge I have
 gained. I want to develop in development in order to create beautiful and
 effective interfaces.
+
+## Skills
+
+- HTML5
+- CSS, SCSS, Sass
+- Git, GitHub
+- VS Code
+- Ableton Live, FL Studio
+- Abode Photoshop, Krita
+- Excel, PowerPoint
+- JavaScript, TypeScript
+- Angular (basic)
+- React (basic)
