@@ -71,11 +71,14 @@ development took place within the framework of a single task on stage 2 in early
 
 https://github.com/stealthybunny/RSClone/blob/develop/social-network/README.md
 
----
-
 ## Education
 
 Incomplete Higher Education: Belarusian State Technological University,
 Production of products based on three-dimensional technologies major.
 
----
+## Languages:
+
+- English: basic (in active study)
+- Polish: basic
+- French: basic
+- Russian: proficiency
