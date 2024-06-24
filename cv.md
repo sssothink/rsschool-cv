@@ -47,3 +47,35 @@ effective interfaces.
 - JavaScript, TypeScript
 - Angular (basic)
 - React (basic)
+
+## Code example:
+
+```
+function getIntervalArray(start, end) {
+  let st = start - 1;
+  const arr = Array(end - st).fill().map(() => {
+    st += 1;
+    return st;
+  });
+  return arr;
+}
+
+console.log(getIntervalArray(-2, 5))
+```
+
+## Experience
+
+The extreme experience was related to the development of a social network. The
+development took place within the framework of a single task on stage 2 in early
+2023:
+
+https://github.com/stealthybunny/RSClone/blob/develop/social-network/README.md
+
+---
+
+## Education
+
+Incomplete Higher Education: Belarusian State Technological University,
+Production of products based on three-dimensional technologies major.
+
+---
