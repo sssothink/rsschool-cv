@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	--background-color: #eaeaea;
+	--background-color-additional: #75706f;
+	--text-color-main: #121212;
+	--text-color-additional: #acaba9;
+	--text-font-main: "Work Sans", sans-serif;
+	--text-font-additional: "Playwrite MX", cursive;
+}
+
+.body {
+	background-color: var(--background-color);
+	color: var(--text-color-main);
+	font-family: var(--text-font-main);
+}
