@@ -15,3 +15,95 @@
 	color: var(--text-color-main);
 	font-family: var(--text-font-main);
 }
+
+.container {
+	position: relative;
+	padding: 15px 10%;
+}
+
+.header {
+	background-color: var(--background-color-additional);
+	user-select: none;
+}
+
+.header__wrapper {
+	display: flex;
+	cursor: default;
+	justify-content: space-between;
+}
+
+.header__title {
+	font-size: 16px;
+	font-family: var(--text-font-additional);
+	color: var(--text-color-additional);
+}
+
+.header__nav {
+	display: flex;
+	gap: 2em;
+	font-family: var(--text-font-main);
+	font-size: 14px;
+	align-items: end;
+}
+
+.header__link {
+	text-decoration: none;
+	color: var(--text-color-additional);
+	transition: all 0.1s;
+}
+
+.header__link:hover {
+	text-decoration: none;
+	color: var(--background-color);
+	transition: all 0.1s;
+}
+
+.contacts__avatar {
+	margin-top: 1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	height: fit-content;
+	width: fit-content;
+}
+
+.contacts__wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.contacts__info {
+	display: flex;
+	flex-direction: column;
+}
+.contacts__title {
+}
+.title {
+	font-family: var(--text-font-additional);
+}
+.contacts__name {
+	font-family: var(--text-font-main);
+	font-size: 32px;
+}
+.contacts__ul {
+	list-style-type: none;
+	font-family: var(--text-font-main);
+}
+.contacts__li {
+	padding: 2px 5px;
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: -2.5rem;
+	transition: all 0.2s;
+	border-radius: 4px;
+}
+
+.contacts__li:hover {
+	background-color: var(--text-color-additional);
+	margin-left: 0rem;
+	transition: all 0.2s;
+}
