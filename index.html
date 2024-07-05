@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="scroll-behavior: smooth" lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,10 +12,10 @@
 			<div class="header__wrapper">
 				<div class="header__title">Curriculum Vitae</div>
 				<nav class="header__nav nav">
-					<a href="" class="header__link">Contact information</a
-					><a href="" class="header__link">About me</a
-					><a href="" class="header__link">Skills</a
-					><a href="" class="header__link">Code example</a
+					<a href="#contacts" class="header__link">Contact information</a
+					><a href="#about-me" class="header__link">About me</a
+					><a href="#skills" class="header__link">Skills</a
+					><a href="#code-example" class="header__link">Code example</a
 					><a href="" class="header__link">Experience</a
 					><a href="" class="header__link">Education</a
 					><a href="" class="header__link">Languages</a>
@@ -23,7 +23,7 @@
 			</div>
 		</header>
 		<main class="main">
-			<section class="contacts__wrapper container">
+			<section id="contacts" class="contacts__wrapper container">
 				<div class="contacts__info">
 					<div class="contacts__avatar-wrap">
 						<img
@@ -87,7 +87,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="about__wrapper container section">
+			<section id="about-me" class="about__wrapper container section">
 				<div class="about__title title">About me</div>
 				<div class="about__map">
 					<div id="checkpoint1" class="about__checkpoint">
@@ -121,7 +121,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="skills__wrapper container section">
+			<section id="skills" class="skills__wrapper container section">
 				<div class="skills__title title">Skills</div>
 				<div class="skills__ul">
 					<div id="html" class="skills__li">HTML5</div>
@@ -135,6 +135,22 @@
 					<div id="angular" class="skills__li">Angular (basic)</div>
 					<div id="react" class="skills__li">React (basic)</div>
 				</div>
+			</section>
+			<section id="code-example" class="code-example__wrapper section contacts">
+				<div class="code-example__title title">Code example</div>
+				<pre class="code-example__text">
+					function getIntervalArray(start, end) {
+						let st = start - 1;
+						const arr = Array(end - st).fill().map(() => {
+							st += 1;
+							return st;
+						});
+						return arr;
+					}
+					
+					console.log(getIntervalArray(-2, 5))
+				</pre
+				>
 			</section>
 		</main>
 		<script src="./app.js"></script>

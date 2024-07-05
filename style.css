@@ -154,7 +154,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 5rem;
+	padding-top: 5vw;
 }
 
 .about__map {
@@ -225,4 +225,18 @@
 }
 #react:hover {
 	box-shadow: inset 40vh 0 0 0 var(--text-color-additional);
+}
+
+.code-example__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.code-example__text {
+	text-align: start;
+	padding-top: 2vh;
+	padding-left: -3vh;
+	width: 100%;
+	/* background-color: var(--color-hover); */
 }
