@@ -69,12 +69,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 500px;
+	width: 560px;
 	overflow: hidden;
 }
 
 .contacts__avatar {
-	height: 500px;
+	height: 560px;
 }
 
 .contacts__wrapper {
@@ -148,4 +148,81 @@
 .contacts__link:hover {
 	color: var(--background-color);
 	transition: all 0.2s;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5rem;
+}
+
+.about__map {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	padding-top: 3rem;
+}
+
+.about__checkpoint {
+	text-align: center;
+}
+
+#checkpoint4 {
+	font-family: var(--text-font-additional);
+}
+
+.skills__ul {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+	padding-top: 2rem;
+}
+.skills__li {
+	width: 100%;
+	text-align: start;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	background-color: var(--color-hover);
+	box-shadow: inset 0 0 0 0 var(--text-color-additional);
+	transition: all 0.2s;
+}
+
+.skills__li:hover {
+	color: var(--background-color);
+	transition: all 0.2s;
+	border-radius: 0px;
+}
+
+#html:hover {
+	box-shadow: inset 110vh 0 0 0 var(--text-color-additional);
+}
+#css:hover {
+	box-shadow: inset 110vh 0 0 0 var(--text-color-additional);
+}
+#git:hover {
+	box-shadow: inset 70vh 0 0 0 var(--text-color-additional);
+}
+#vs:hover {
+	box-shadow: inset 120vh 0 0 0 var(--text-color-additional);
+}
+#ableton:hover {
+	box-shadow: inset 130vh 0 0 0 var(--text-color-additional);
+}
+#photoshop:hover {
+	box-shadow: inset 40vh 0 0 0 var(--text-color-additional);
+}
+#microsoft:hover {
+	box-shadow: inset 90vh 0 0 0 var(--text-color-additional);
+}
+#js:hover {
+	box-shadow: inset 110vh 0 0 0 var(--text-color-additional);
+}
+#angular:hover {
+	box-shadow: inset 40vh 0 0 0 var(--text-color-additional);
+}
+#react:hover {
+	box-shadow: inset 40vh 0 0 0 var(--text-color-additional);
 }
