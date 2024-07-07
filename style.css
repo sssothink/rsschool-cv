@@ -11,6 +11,10 @@
 	--text-font-additional: "Playwrite MX", cursive;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .body {
 	background-color: var(--background-color);
 	color: var(--text-color-main);
@@ -41,8 +45,9 @@
 	color: var(--background-color);
 }
 
-.header__nav {
+.header__ul {
 	display: flex;
+	list-style-type: none;
 	gap: 2em;
 	font-family: var(--text-font-main);
 	font-size: 14px;
@@ -117,15 +122,24 @@
 	list-style-type: none;
 	font-family: var(--text-font-main);
 }
+
+.li {
+	width: fit-content;
+	padding: 2px 5px;
+	cursor: pointer;
+	font-size: 20px;
+	padding-left: 0rem;
+}
+
 .contacts__li {
+	transition: all 0.2s;
+	border-radius: 4px;
 	width: fit-content;
 	padding: 2px 5px;
 	cursor: pointer;
 	font-size: 20px;
 	margin-left: -2.5rem;
 	padding-left: 0rem;
-	transition: all 0.2s;
-	border-radius: 4px;
 }
 
 .contacts__li:hover {
@@ -235,8 +249,51 @@
 
 .code-example__text {
 	text-align: start;
-	padding-top: 2vh;
 	padding-left: -3vh;
-	width: 100%;
+	width: 100vw;
 	/* background-color: var(--color-hover); */
+}
+
+.experience__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.experiece__link {
+	color: var(--text-color-additional);
+	font-size: 28px;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.experiece__link:hover {
+	transform: scale(1.05);
+	transition: all 0.2s;
+}
+
+.languages__ul {
+	width: 100%;
+	text-align: start;
+	list-style-type: none;
+}
+
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--background-color);
+	font-size: 20px;
+	margin-top: 5vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	background-color: var(--text-color-additional);
+}
+
+.footer__logo {
+	width: 80px;
+}
+
+.footer__my-github {
+	text-decoration: none;
 }
