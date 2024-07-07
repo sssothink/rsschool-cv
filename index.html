@@ -12,13 +12,23 @@
 			<div class="header__wrapper">
 				<div class="header__title">Curriculum Vitae</div>
 				<nav class="header__nav nav">
-					<a href="#contacts" class="header__link">Contact information</a
-					><a href="#about-me" class="header__link">About me</a
-					><a href="#skills" class="header__link">Skills</a
-					><a href="#code-example" class="header__link">Code example</a
-					><a href="" class="header__link">Experience</a
-					><a href="" class="header__link">Education</a
-					><a href="" class="header__link">Languages</a>
+					<ul class="header__ul">
+							<li class="header__li">
+								<a href="#contacts" class="header__link">Contact information</a>
+							</li><li class="header__li">
+								<a href="#about-me" class="header__link">About me</a>
+							</li><li class="header__li">
+								<a href="#skills" class="header__link">Skills</a>
+							</li><li class="header__li">
+								<a href="#code-example" class="header__link">Code example</a>
+							</li><li class="header__li">
+								<a href="" class="header__link">Experience</a>
+							</li><li class="header__li">
+								<a href="" class="header__link">Education</a>
+							</li><li class="header__li">
+								<a href="" class="header__link">Languages</a>
+							</li>
+					</ul>
 				</nav>
 			</div>
 		</header>
@@ -38,7 +48,7 @@
 							Hi! I am Artyom Rebenkov and this page is about me
 							&#128104;&#8205;&#128187;
 						</h1>
-						<div class="contacts__title title">Contact information:</div>
+						<h2 class="contacts__title title">Contact information:</h2>
 						<ul class="contacts__ul">
 							<li class="contacts__li">
 								<a
@@ -83,7 +93,7 @@
 				</div>
 			</section>
 			<section id="about-me" class="about__wrapper container section">
-				<div class="about__title title">About me</div>
+				<h2 class="about__title title">About me</h2>
 				<div class="about__map">
 					<div id="checkpoint1" class="about__checkpoint">
 						The main purpose of my appeal to the development of the frontend is
@@ -117,22 +127,22 @@
 				</div>
 			</section>
 			<section id="skills" class="skills__wrapper container section">
-				<div class="skills__title title">Skills</div>
-				<div class="skills__ul">
-					<div id="html" class="skills__li">HTML5</div>
-					<div id="css" class="skills__li">CSS, SCSS, Sass</div>
-					<div id="git" class="skills__li">Git, GitHub</div>
-					<div id="vs" class="skills__li">VS Code</div>
-					<div id="ableton" class="skills__li">Ableton Live, FL Studio</div>
-					<div id="photoshop" class="skills__li">Abode Photoshop, Krita</div>
-					<div id="microsoft" class="skills__li">Excel, PowerPoint</div>
-					<div id="js" class="skills__li">JavaScript, TypeScript</div>
-					<div id="angular" class="skills__li">Angular (basic)</div>
-					<div id="react" class="skills__li">React (basic)</div>
-				</div>
+				<h2 class="skills__title title">Skills</h2>
+				<ul class="skills__ul">
+					<li id="html" class="skills__li">HTML5</li>
+					<li id="css" class="skills__li">CSS, SCSS, Sass</li>
+					<li id="git" class="skills__li">Git, GitHub</li>
+					<li id="vs" class="skills__li">VS Code</li>
+					<li id="ableton" class="skills__li">Ableton Live, FL Studio</li>
+					<li id="photoshop" class="skills__li">Abode Photoshop, Krita</li>
+					<li id="microsoft" class="skills__li">Excel, PowerPoint</li>
+					<li id="js" class="skills__li">JavaScript, TypeScript</li>
+					<li id="angular" class="skills__li">Angular (basic)</li>
+					<li id="react" class="skills__li">React (basic)</li>
+				</ul>
 			</section>
 			<section id="code-example" class="code-example__wrapper section container">
-				<div class="code-example__title title">Code example</div>
+				<h2 class="code-example__title title">Code example</h2>
 				<pre class="code-example__text">
 					function getIntervalArray(start, end) {
 						let st = start - 1;
@@ -147,15 +157,42 @@
 				>
 			</section>
 			<section id="experience" class="experience__wrapper section container">
-				<div class="experience__title title">
+				<h2 class="experience__title title">
 					Experience
-				</div>
+				</h2>
 				<div class="experience__text">
 					The extreme experience was related to the development of a social network. The development took place within the framework of a single task on stage 2 in early 2023:
 				</div>
 				<a href="https://github.com/stealthybunny/RSClone/blob/develop/social-network/README.md" class="experiece__link">Description of the application</a>
 			</section>
+			<section id="education" class="education__wrapper section container">
+				<h2 class="education__title title">
+					Education
+				</h2>
+				<div class="experience__text">
+					Incomplete Higher Education: Belarusian State Technological University,
+					Production of products based on three-dimensional technologies major.
+				</div>
+			</section>
+			<section id="languages" class="languages__wrapper section container">
+				<h2 class="languages__title title">
+					Languages
+				</h2>
+				<ul class="languages__ul">
+					<li class="languages__li li">English: basic (in active study)</li>
+					<li class="languages__li li">Polish: basic</li>
+					<li class="languages__li li">French: basic</li>
+					<li class="languages__li li">Russian: proficiency</li>
+				</ul>
+			</section>
 		</main>
+		<footer class="footer">
+			<div class="footer__wrapper container">
+				<a href="https://github.com/sssothink" class="footer__my-github">My GitHub</a>
+				<div class="footer__year">2024</div>
+				<a href="https://rs.school/"><img class="footer__logo" src="./assats/images/logo.webp" alt="logo"></a>
+			</div>
+		</footer>
 		<script src="./app.js"></script>
 	</body>
 </html>
