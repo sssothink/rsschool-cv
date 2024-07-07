@@ -11,6 +11,10 @@
 	--text-font-additional: "Playwrite MX", cursive;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .body {
 	background-color: var(--background-color);
 	color: var(--text-color-main);
