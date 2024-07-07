@@ -144,15 +144,15 @@
 			<section id="code-example" class="code-example__wrapper section container">
 				<h2 class="code-example__title title">Code example</h2>
 				<pre class="code-example__text">
-					function getIntervalArray(start, end) {
-						let st = start - 1;
-						const arr = Array(end - st).fill().map(() =&gt; {
-							st += 1;
-							return st;
-						});
-						return arr;
-					}
-					console.log(getIntervalArray(-2, 5))
+function getIntervalArray(start, end) {
+	let st = start - 1;
+	const arr = Array(end - st).fill().map(() =&gt; {
+		st += 1;
+		return st;
+	});
+	return arr;
+}
+console.log(getIntervalArray(-2, 5))
 				</pre
 				>
 			</section>
